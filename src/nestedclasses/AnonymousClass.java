@@ -34,7 +34,7 @@ public class AnonymousClass implements MNC2{
 	}
 	
 	public static void main(String[] args) {
-		MNC ref; // abstract class ka interface banaya hai
+		MNC ref; // abstract class ka reference banaya hai
 		
 		ref = new Chetu("Lodu");
 		ref.paisaHiPaisa();

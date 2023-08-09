@@ -11,7 +11,7 @@ public class LearningThreads2 implements Runnable{
 	}
 	
 	public static void main(String[] args) {
-		Runnable ref = new LearningThreads2(); // downcasting
+		Runnable ref = new LearningThreads2(); // down casting
 		Thread t1 = new Thread(ref);
 		t1.start();
 	}
