@@ -1,7 +1,7 @@
 package abstraction;
 
 abstract class Mobile {
-	String name;
+	String name; 
 	
 	public Mobile(String name) {
 		this.name = name;
