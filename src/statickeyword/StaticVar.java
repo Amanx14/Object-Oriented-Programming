@@ -5,6 +5,10 @@ public class StaticVar {
 	String gender;
 	int age;
 	
+	public StaticVar() {
+		
+	}
+	
 	public StaticVar(String name, String gender, int age) {
 		this.name = name;
 		this.gender = gender;

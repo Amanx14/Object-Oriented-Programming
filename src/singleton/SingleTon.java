@@ -1,10 +1,10 @@
 package singleton;
 
-//---------------EARLY INSTANSIATION------------------
+//---------------EARLY INSTANSIATION / EAGER LOADING------------------
 public class SingleTon {
 	
-	private SingleTon() {
-			
+	private SingleTon() { // constructor ko private karne se object nai banta
+		System.out.println("SingleTon.SingleTon()");
 	}
 	
 	private static SingleTon obj = new SingleTon();

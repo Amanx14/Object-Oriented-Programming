@@ -28,7 +28,7 @@ class Hunk {
 public class Interfaces extends Hunk implements Cheater, Gaddar{
 	@Override
 	public void print() {
-		System.out.println("Gaddar ho " + id + " hote hai");
+		System.out.println("Gaddar log " + id + " hote hai");
 	}
 	
 	@Override

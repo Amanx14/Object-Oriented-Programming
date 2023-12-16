@@ -6,6 +6,7 @@ abstract class Mobile {
 	public Mobile(String name) {
 		this.name = name;
 	}
+	
 	abstract void call();
 	public abstract void msg();
 	
@@ -34,8 +35,10 @@ class Nokia extends Mobile{
 
 public class Abstraction {
 	public static void main(String[] args) {
+		
 		Nokia lumia = new Nokia("Nokia Lumia");
 		lumia.call();
 		lumia.msg();
+		lumia.printInfo();
 	}
 }

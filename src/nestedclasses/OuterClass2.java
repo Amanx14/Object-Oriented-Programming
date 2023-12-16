@@ -5,7 +5,7 @@ public class OuterClass2 {
 	String name;
 	static int id = 97;
 	
-	public OuterClass2(String name, int id) {
+	public OuterClass2(String name) {
 		this.name = name;
 	}
 	
@@ -23,7 +23,6 @@ public class OuterClass2 {
 //			System.out.println(name); 
 			System.out.println("I am static inner class " + id);
 			System.out.println("Rank is " + rank);
-			
 		}
 	}
 	

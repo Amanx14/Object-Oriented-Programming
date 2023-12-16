@@ -13,7 +13,7 @@ public class OuterClass {
 	}
 	
 	void disp() {
-		System.out.println("I am outer class showing " + name + id);
+		System.out.println("I am outer class showing " + name + " " + id);
 	}
 	
 	class InnerClass {
@@ -26,6 +26,7 @@ public class OuterClass {
 		void printInfo() {
 			System.out.println("I am inner class printing:- "); 
 			System.out.println("Name = " + name + " Leage = " + leage);
+//			disp();
 		}
 	}
 }

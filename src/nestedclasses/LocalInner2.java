@@ -2,7 +2,8 @@ package nestedclasses;
 
 // ---------------LOCAL INNER CLASS-----------------
 class OutrClass {
-int id = 30;
+	
+	int id = 30;
 	
 	void display() {
 		

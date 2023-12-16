@@ -26,7 +26,7 @@ public class Engine {
 class Ducati {
 	String name;
 	String color;
-	Engine engine;
+	Engine engine; // Ducati has an engine (has a relationship) 
 	
 	public Ducati(String name, String color, Engine engine) {
 		this.name = name;

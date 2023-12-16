@@ -4,6 +4,7 @@ public class Runner {
 	public static void main(String[] args) {
 		StaticVar s = new StaticVar("Anjali", "Female", 23);
 		
+//		StaticVar s = new StaticVar();
 //		s.name = "Shila"; // agar constructor nai ho toh aise value bhejte
 //		s.age = 23;
 //		s.gender = "female";

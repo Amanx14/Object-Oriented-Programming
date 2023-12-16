@@ -12,7 +12,6 @@ public class Runner {
 		Cheater.Don();
 		System.out.println(Gaddar.id);
 		
-		
 	}
 	
 }

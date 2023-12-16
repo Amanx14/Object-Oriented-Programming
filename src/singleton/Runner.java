@@ -10,6 +10,8 @@ public class Runner {
 		SingleTon obj2 = SingleTon.getInstance();
 		System.out.println(obj2);
 		
+		System.out.println();
+		
 		//-------Lazy instantiation----------
 		
 		SingleTon2 ref = SingleTon2.getSingleton();
