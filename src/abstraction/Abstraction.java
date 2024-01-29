@@ -1,5 +1,7 @@
 package abstraction;
 
+// Abstraction in JAVA
+
 abstract class Mobile {
 	String name; 
 	
